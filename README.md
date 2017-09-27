@@ -9,8 +9,8 @@ We recommend to use [Swagger](https://editor.swagger.io/) or any other OpenAPI i
 read the documentation. 
 
 ## Task
-**Implementation**: You have to implement the whole Secret Server. If it is not specified you can choose the technology
-you want to use (database, programming language, etc).
+**Implementation**: You have to implement the whole Secret Server API. If it is not specified you can choose the technology
+you want to use (database, programming language, etc). However it would be wise to store the data using encryption now this is not part of the task. You can use plain text to store your secrets.
 
 **Hosting**: You also have to deploy and host the service. There are hundreds of free solutions to do this. So this shouldn't
 be an issue. 
