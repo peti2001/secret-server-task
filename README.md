@@ -13,7 +13,7 @@ read the documentation.
 you want to use (database, programming language, etc). However it would be wise to store the data using encryption now this is not part of the task. You can use plain text to store your secrets.
 
 **Hosting**: You also have to deploy and host the service. There are hundreds of free solutions to do this. So this shouldn't
-be an issue. 
+be an issue. If this API was used in production, then HTTPS would be a must but this is not the case now, use HTTP instead of HTTPS.
 
 **Share the code**: Upload the code to your GitHub account and share with us.
 
