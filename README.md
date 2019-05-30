@@ -10,11 +10,13 @@ read the documentation.
 
 ## Task
 **Implementation**: You have to implement the whole Secret Server API. If it is not specified you can choose the technology
-you want to use (database, programming language, etc). However it would be wise to store the data using encryption now this is not part of the task. You can use plain text to store your secrets.
-The response can be XML or JSON too. Use a configuration file to switch between the two response type. 
+you want to use (database, programming language, framework, etc). However it would be wise to store the data using encryption now this is not part of the task. You can use plain text to store your secrets.
 
-**Hosting**: You also have to deploy and host the service. There are hundreds of free solutions to do this. So this shouldn't
-be an issue. If this API was used in production, then HTTPS would be a must but this is not the case now, use HTTP instead of HTTPS.
+**Response types**
+The API must be able to response with XML or JSON too, based on the [Accept header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept). Other response types (such as YAML) might be added later so prepare your code to be extandable. 
+
+**Hosting**: You also have to deploy and host the service. There are plenty of free solutions to do this. So this shouldn't
+be an issue. If this API was used in production, then HTTPS would be a must but this is not the case now. It is allowed to use HTTP too.
 
 **Share the code**: Upload the code to your GitHub account and share with us.
 
