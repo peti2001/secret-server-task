@@ -1,12 +1,12 @@
 # Secret Server Coding Task
 
 ## Introduction
-Your task is to implement a secret server. The secret server can be used to store and share secrets
-using the random generated URL. But the secret can be read only a limited number of times after that
-it will expire and won’t be available. The secret may have TTL. After the expiration time the secret
-won’t be available anymore. You can find the detailed API documentation in the swagger.yaml file.
-We recommend to use [Swagger](https://editor.swagger.io/) or any other OpenAPI implementation to
-read the documentation. 
+Your task is to implement a secret server (similar to [Saltify](https://www.saltify.io/)). The
+secret server can be used to store and share secrets using the random generated URL. But the secret
+can be read only a limited number of times after that it will expire and won’t be available. The
+secret may have TTL. After the expiration time the secret won’t be available anymore. You can find
+the detailed API documentation in the swagger.yaml file. We recommend to use [Swagger](https://editor.swagger.io/)
+or any other OpenAPI implementation to read the documentation. 
 
 ## Task
 **Implementation**: You have to implement the whole Secret Server API. If it is not specified you can choose the technology
