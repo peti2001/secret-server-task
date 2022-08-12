@@ -18,6 +18,8 @@ The API must be able to response with XML or JSON too, based on the [Accept head
 **Hosting**: You also have to deploy and host the service. There are plenty of free solutions to do this. So this shouldn't
 be an issue. If this API was used in production, then HTTPS would be a must but this is not the case now. It is allowed to use HTTP too.
 
+**Database**: You don't have to use a database in menory storage will work too. 
+
 **Share the code**: Upload the code to your GitHub account and share with us.
 
 ## Questions
